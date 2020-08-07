@@ -3,9 +3,26 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import WeatherForm from './components/WeatherForm';
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+    display: 'border-box',
+    textAlign: 'center'
 
-
-
+  },
+  header: {
+    fontSize: 30,
+    paddingBottom: 20
+  },
+  subHeader: {
+    fontSize: 15,
+    paddingBottom: 40
+  }
+});
 
 export default function App() {
   return (
@@ -18,18 +35,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  header: {
-    fontSize: 30
-  },
-  subHeader: {
-    fontSize: 15,
-    marginTop: 10
-  }
-});

@@ -5,7 +5,6 @@ import WeatherInfo from './WeatherInfo';
 
 const styles = StyleSheet.create ({
     viewContainer: {
-       marginTop: 20,
        textAlign: 'center',
        maxWidth: 250
     },
