@@ -11,8 +11,7 @@ const styles = StyleSheet.create ({
     },
     weatherButton: {
         width: 150,
-        margin: 'auto',
-        marginTop: 10,
+        margin: 'auto'
        
     },
     inputBox: {
